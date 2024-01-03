@@ -1,0 +1,8 @@
+Ctrl + Alt + 방향키 : 라인 복사
+Ctrl + D : 라인 삭제
+드래그 + Alt + W : 드래그 영역 html 태그 감싸기
+Ctrl + / : 라인 전체 주석
+Ctrl + shift+ / : 현재 주석
+Ctrl + space bar : 자동 완성 호출
+F2 : 이름 바꾸기
+shift + tab : 왼쪽으로

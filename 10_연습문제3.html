@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10_연습문제3</title>
+</head>
+
+<body>
+    <form action="10_연습문제3결과.html">
+       고객명 : <input type="text" name="clientName"><br><br>
+       전화번호 : <input type="text" name="clientPhone"><br><br>
+       Email : <input type="text" name="clientEmail" id=""><br><br>
+       피자선택 : <select name="pizza" id="">
+        <option value="피자를 선택하세요">피자를 선택하세요</option>
+        <option value="콤비네이션">콤비네이션</option>
+        <option value="치즈">치즈</option>
+       </select><br><br>
+        <fieldset>
+            <legend>피자 사이즈</legend>
+            <label></label><input type="radio" name="size" value="Small"> Small <br><br>
+            <label></label><input type="radio" name="size" value="Medium"> Medium <br><br>
+            <label><input type="radio" name="size" value="Large"> Large <br><br></label>
+        </fieldset>
+    </select>
+    <fieldset>
+        <legend>토핑 선택</legend>
+        <label><input type="checkbox" name="topping" value="치즈"> 치즈 <br><br></label>
+        <label><input type="checkbox" name="topping" value="양파"> 양파 <br><br></label>
+        <label><input type="checkbox" name="topping" value="버섯"> 버섯 <br><br></label>
+    </fieldset>
+    <br>
+    희망배송시간 <input type="time" name="wishTime">
+    <br><br>
+    배송시 요청사항 : <textarea name="request" cols="30" rows="3"></textarea>
+    <br><br>
+    <button>주문하기</button>
+    </form>
+</body>
+
+</html>

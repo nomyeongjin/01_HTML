@@ -1,0 +1,31 @@
+working directory : .git 존재하는 폴더
+-> 해당 폴더에서 변경되는 모든 내용을 추적
+
+staging(stage) area : (스테이지 올라간 파일 영역)
+기록하려는 파일이 머무는 곳
+(이곳에 올라온 파일들을 기록할 예정이다.)
+
+[commit]
+staging area에 올라온 파일을
+local repository에 저장하는(맡기는) 명령어
+
+local(현재 컴퓨터) repository(저장소) : 
+내 PC에 변경 내용을 저장할 저장소
+
+remote(원격) repository(저장소)
+
+
+--------------------------------------
+
+* 집에서 학원에서 수업한 내용(github에 push된 내용) 얻어오기 *
+1. 수업한 내용을 저장할 폴더 생성
+2. github 로그인
+3. 원격 저장소 (remote repository) 페이지 이동 -> https://github.com/nomyeongjin/01_HTML
+4. Code 버튼 클릭 -> clone -> 주소 복사 (https://github.com/nomyeongjin/01_HTML.git)
+5. 소스트리 -> 새탭 -> clone 버튼
+6. 소스 경로 입력창에 복사한 주소 붙여넣기
+7. 두 번째 줄 탐색을 클릭하여 복제한 저장소의 위치를 지정
+8. 선택한 위치 뒤에 \폴더명 을 추가 작성
+9. 아래 [클론] 버튼 클릭
+
+git 비밀번호 : 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
